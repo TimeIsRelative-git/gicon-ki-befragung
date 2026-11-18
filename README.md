@@ -1,19 +1,17 @@
-# GICON KI-Befragung – Website Version 3
+# GICON KI-Befragung – Website Version 4
 
-Statische Ergebniswebsite für GitHub Pages.
+Mehrseitige statische Ergebniswebsite für GitHub Pages.
 
-## Veröffentlichung
-1. Nur den Inhalt dieses Ordners in das Repository hochladen.
-2. GitHub Pages aus dem Branch `main` und dem Verzeichnis `/ (root)` veröffentlichen.
-3. Keine Excel-, SPSS-, Word- oder Rohdatendateien in das Repository aufnehmen.
+## Struktur
+- `index.html`: Start
+- `grundlage.html`: TAM und Untersuchungslogik
+- `fragebogen.html`: tatsächlich ausgespielter Fragebogen
+- `ergebnisse.html`: narrative Ergebnisdarstellung
+- `statistik.html`: statistische Vertiefung mit SPSS-Syntax
+- `methodik.html`: Datenaufbereitung, Grenzen und Glossar
 
-## Suchmaschinen
-- `robots.txt` sperrt Crawler für das gesamte Projekt.
-- Jede HTML-Seite enthält `noindex, nofollow, noarchive, nosnippet, noimageindex`.
-- Das reduziert die Auffindbarkeit über Suchmaschinen, ist aber **kein Zugriffsschutz**.
-- GitHub Pages bleibt öffentlich erreichbar. Wer die URL kennt oder erhält, kann die Website öffnen.
+## Aktualisierung auf GitHub
+Den gesamten Inhalt dieses Ordners in das bestehende Repository hochladen und vorhandene Dateien ersetzen. GitHub Pages bleibt auf `main` und `/ (root)`.
 
-## Wartung
-- Layout: `assets/css/style.css`
-- Interaktion: `assets/js/app.js`
-- Inhalte: `index.html`
+## Datenschutz und Suchmaschinen
+Keine Rohdaten hochladen. `robots.txt` und HTML-Meta-Tags bitten Suchmaschinen um Nichtindexierung. Das ist kein Zugriffsschutz.
